@@ -11,8 +11,10 @@ venv/
 # Reports
 reports/
 
-# Exports
-exports/
+# Generated export files
+exports/*.graphml
+exports/*.html
+exports/*.json
 
 # Investigations
 investigations/
