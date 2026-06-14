@@ -106,11 +106,6 @@ class DomainWorkflow:
 
         self.runner.run_module(
             investigation_id,
-            DorkGenerator(target),
-            "Dork Generator"
-        )
-        self.runner.run_module(
-            investigation_id,
             DorkGenerator(
                 target,
                 "domain"
